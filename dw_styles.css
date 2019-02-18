@@ -109,19 +109,37 @@ body{
 .img_page{
   margin: 44px 0px 25px 0px;
 }
-.partial_section{
+.sections{
   display: flex;
-  align-items: center;
-
-  height: 112px;
-  margin-left: 112px;
-  margin-right: 67px;
+justify-content: center;
+}
+.boton_section{
+  margin-left: 141px;
+  margin-right: 141px;
   border-bottom-style: solid;
   border-bottom-color: #707070;
   border-bottom-width: 1px;
+      width: 990px;
 }
+.partial_section{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ margin-top: 27px;
+}
+.program {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13.5px;
+  margin-bottom: 27px;
+}
+
 .boton2, .boton3{
   margin-left: -54px;
+}
+.partial_section boton4{
+
 }
 .works_section{
   margin-left: 112px;
