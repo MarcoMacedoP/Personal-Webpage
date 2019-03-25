@@ -1,0 +1,12 @@
+.boton1{
+	border: 1px solid red;
+	background: rgba(168,69,89,1);
+	color: white;
+	text-transform: uppercase;
+	border-radius: 1px;
+	width: 62px; 
+	height: auto;
+	text-align: center;
+	
+
+}
