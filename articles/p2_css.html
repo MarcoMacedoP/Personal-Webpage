@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DESARROLLO WEB I</title>
+    <link rel="stylesheet" href="a_styles.css">
+    <link rel="stylesheet" href="p2_css_styles.css">
+  </head>
+  <body>
+    <header class="header">
+        <nav>
+          <ol>
+            <li class="li_name">
+              <a href="../d_web.html"> <img src="img/path.svg" alt=""> </a>
+            </li>
+            <div class="header_right">
+
+            <li>
+              <a href="index.html"> PORTFOLIO </a>
+            </li>
+            <li>
+              <a href="d_web.html"> D. WEB </a>
+            </li>
+            <li>
+              <a> DESING </a>
+            </li>
+            <li>
+              <a> CONTACT </a>
+            <li>
+              <figure>
+                <img src="../resources/me.png" alt="imagen" class="me_small">
+               </figure>
+            </li>
+            </div>
+          </ol>
+        </nav>
+    </header>
+    <hero >
+      <div class="article_hero">
+          <div class="post_image" style="background-image: url(img/p2_css.png);"></div>
+        </div>
+    </hero>
+    <div class="article_tittle">
+      <h1> CSS <h1>
+    </div>
+    <div class="article_content">
+      <div class="contenido">
+
+        <p class="article_section_1">
+          El CSS (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML). Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación.
+        </p>
+        <br>
+        <p class="article_section_2">
+          El gran impulso de los lenguajes de hojas de estilos se produjo con el boom de Internet y el crecimiento exponencial del lenguaje HTML para la creación de documentos electrónicos. La guerra de navegadores y la falta de un estándar para la definición de los estilos dificultaban la creación de documentos con la misma apariencia en diferentes navegadores.
+          <br>
+          El organismo W3C (World Wide Web Consortium), encargado de crear todos los estándares relacionados con la web, propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas. Las dos propuestas que se tuvieron en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal).
+          <br>
+          La propuesta CHSS fue realizada por Håkon Wium Lie y SSP fue propuesto por Bert Bos. Entre finales de 1994 y 1995 Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada propuesta y lo llamaron CSS (Cascading Style Sheets).
+          <br>
+          En 1995, el W3C decidió apostar por el desarrollo y estandarización de CSS y lo añadió a su grupo de trabajo de HTML. A finales de 1996, el W3C publicó la primera recomendación oficial, conocida como "CSS nivel 1".
+        </p>
+        <p class="article_section_3">
+          Existen diferentes maneras de aplicar las hojas CSS a nuestros articulos css, entre las que encontramos:
+        </p>
+        <h3>CSS externo</h3>
+        En la cabecera del HTML, el bloque <span class="code">< head >< /head > </span>, incluimos una relación al archivo CSS en cuestión:
+        <br>
+        <span class="code">
+            < link rel="stylesheet" type="text/css" href="index.css" />
+          </span>
+        <br>
+        De esta forma, los navegadores sabrán que deben aplicar los estilos de este archivo (index.css) al documento HTML actual. Se aconseja escribir esta línea lo antes posible (sobre todo, antes de scripts), obligando así al navegador a aplicar los estilos cuanto antes y eliminar la falsa sensación de página no cargada por completo.
+
+        <br>
+
+        <h3>CSS interno</h3>
+        Otra de las formas que existen para incluir estilos en un documento HTML es la de añadirlos directamente en la cabecera HTML del documento:
+        <br>
+        <span class="code"><br>
+          < !DOCTYPE html ><br>
+          < html ><br>
+          < head ><br>
+          < title>Título de la página</ title><br>
+          < style type="text/css"><br>
+            div {<br>
+                background:#FFFFFF;<br>
+                }<br>
+                < /style><br>
+                </ head><br>
+          </span>
+        Este sistema puede servir en algunos casos, pero hay que tener en cuenta que utilizándolo, arruinamos la ventaja de tener los estilos en un documento independiente, por lo que siempre es preferible guardarlo en un archivo externo CSS.
+        <br>
+
+        <h3>CSS embebido</h3>
+        Por último, la tercera forma de aplicar estilos en un documento HTML es hacerlo directamente en las propias etiquetas, a través del atributo style:
+        <br>
+        <span class="code">
+           < p >¡Hola < span style="color:#FF0000">amigo lector</ span >!</ p >
+          </span>
+        <br>
+         Al igual que en el método anterior, se recomienda no utilizarse salvo casos muy específicos, ya que se pierde la independencia de la presentación y contenido. Sin embargo, es una opción que puede venir bien en algunos casos.
+         <p class="article_section_4">
+           El W3C trabaja continuamente para mejorar el lenguaje CSS, corrigiendo errores e incorporando nuevas funcionalidades. Antes de llegar a una especificación o recomendación oficial se trabajan numerosos borradores que son sometidos a revisión y corrección. Cuando se alcanza un relativo grado de acuerdo entre los miembros del W3C se libera lo que se denomina una recomendación oficial de CSS ó versión a modo de propuesta para su uso y aplicación por todas las empresas, instituciones y personas.
+           <br>
+           Las versiones de CSS a lo largo de la historia han sido:
+
+          <strong>CSS 1:</strong> publicada en 1996.<br>
+          <strong>CSS 2:</strong> publicada en 1998.<br>
+          <strong>CSS 2.1:</strong> publicada en 2004.<br>
+          <strong>CSS 3:</strong> publicada en 2011.<br>
+          <strong>CSS 4:</strong> se estima que pueda ser especificación oficial en 2019.<br>
+          </p>
+
+
+
+      </div>
+    </div>
+
+    <footer class="footer_article">
+      <a class="footer_inicio">Volver a inicio</a>
+      <div class="footer_social">
+      <a class="Facebook"><img src="img/footer/facebook_logo.svg" alt=""/></a>
+      <a class="Github"><img src="img/footer/github_logo.svg" alt=""/></a>
+      <a class="Instagram"><img src="img/footer/instagram_logo.svg" alt=""/></a>
+      </div>
+      <p> Diseñado y codificado por Marco Macedo </p>
+    </footer>
+
+  </body>
+</html>

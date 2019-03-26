@@ -1,0 +1,18 @@
+.contenido h3{
+  font-weight: bold;
+  text-align: center;
+
+}
+.contenido{
+  text-align: left;
+  font-size: 20px;
+  font-size-adjust: auto;
+}
+.code{
+  font-weight: bolder;
+  text-align: center;
+}
+.article_section_1, .article_section_2, .article_section_3, .article_section_4{
+  margin-top: 5%;
+  
+}
