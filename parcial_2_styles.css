@@ -1,12 +1,58 @@
+.boton_section{
+
+	padding-bottom: 2%;
+}
+
 .boton1{
-	border: 1px solid red;
-	background: rgba(168,69,89,1);
-	color: white;
+
+    background: rgba(168,69,89,1);
+    color: #FFFAF3;
+    text-transform: uppercase;
+    border-radius: 3em;
+    width: 39%;
+    height: 3em;
+    text-align: center;
+    padding-top: 1.5%;
+    box-sizing: border-box;
+}
+.boton2{
+    background: rgba(88,37,47,1);
+    color: #AF8481;
+    text-transform: uppercase;
+    border-radius: 3em;
+    width: 39%;
+    height: 3em;
+    text-align: center;
+    padding-top: 1.5%;
+    box-sizing: border-box;
+}
+.boton3{
+	background: rgba(84,35,45,1);
+	color: #9B7B76;
 	text-transform: uppercase;
-	border-radius: 1px;
-	width: 62px; 
-	height: auto;
+	border-radius: 3em;
+	width: 39%;
+	height: 3em;
 	text-align: center;
-	
+	padding-top: 1.5%;
+	box-sizing: border-box;
+}
+.Actividades_parcial li{
+	font-size: 2em;
+	text-align: center;
+	color:#612834;
+}
+
+.Actividades_parcial h2{
+	margin-top: 2%;
+	text-align: center;
+	text-transform: uppercase;
+	color:gray;
+}
+.Actividades_parcial img{
+	width: 15%;
+}
+.Actividades_parcial ol{
+	display: flex;
 
 }
